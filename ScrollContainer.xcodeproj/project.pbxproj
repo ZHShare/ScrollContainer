@@ -12,6 +12,7 @@
 		C6EEEE142004AE7900280042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EEEE122004AE7900280042 /* Main.storyboard */; };
 		C6EEEE162004AE7900280042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EEEE152004AE7900280042 /* Assets.xcassets */; };
 		C6EEEE192004AE7900280042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EEEE172004AE7900280042 /* LaunchScreen.storyboard */; };
+		C6EEEE212004AE9900280042 /* ScrollContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEEE202004AE9900280042 /* ScrollContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C6EEEE152004AE7900280042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EEEE182004AE7900280042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6EEEE1A2004AE7A00280042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6EEEE202004AE9900280042 /* ScrollContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				C6EEEE0E2004AE7900280042 /* AppDelegate.swift */,
 				C6EEEE102004AE7900280042 /* ViewController.swift */,
+				C6EEEE202004AE9900280042 /* ScrollContainerViewController.swift */,
 				C6EEEE122004AE7900280042 /* Main.storyboard */,
 				C6EEEE152004AE7900280042 /* Assets.xcassets */,
 				C6EEEE172004AE7900280042 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EEEE112004AE7900280042 /* ViewController.swift in Sources */,
+				C6EEEE212004AE9900280042 /* ScrollContainerViewController.swift in Sources */,
 				C6EEEE0F2004AE7900280042 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ScrollContainer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eter.ScrollContainer;
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ScrollContainer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eter.ScrollContainer;
